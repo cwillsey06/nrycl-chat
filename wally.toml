@@ -1,0 +1,12 @@
+[package]
+name = "cwillsey/nrycl-chat"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+caretaker = "cwillsey06/caretaker@1.0.1"
+promise = "evaera/promise@4.0.0"
+pooler = "lewistehminerz/pooler@1.0.0"
+roact = "roblox/roact@1.4.2"
+rodux = "roblox/rodux@3.0.0"
