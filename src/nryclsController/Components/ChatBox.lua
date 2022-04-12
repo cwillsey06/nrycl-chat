@@ -26,8 +26,8 @@ function ChatBox(props)
         Text = '';
 
         [Roact.Change.Text] = function(object)
-            local maxText = 32
-            if object.Text >= maxText then
+            local maxText = 192
+            if #object.Text >= maxText then
                 object.Text = object.Text:sub(0, maxText);
             end
         end;

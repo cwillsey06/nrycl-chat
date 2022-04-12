@@ -12,6 +12,7 @@ local Util = script.Util
 local Enumeration = require(Util.Enumeration)
 
 local Components = script.Components
+local Window = require(Components.Window)
 local ChatBase = require(Components.ChatBase)
 
 local nryclsController = {}
@@ -23,7 +24,9 @@ function nryclsController:Init()
         Name = "nrycls-inteface",
         IgnoreGuiInset = true
     }, {
-        ChatBase = Roact.createElement(ChatBase)
+        Window = Roact.createElement(Window, {
+            Content = Roact.createElement(ChatBase);
+        })
     })
 
     nryclsController:Start()

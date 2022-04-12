@@ -9,9 +9,10 @@ local Components = script.Parent
 local ChatBox = require(Components.ChatBox)
 local Padding = require(Components.Padding)
 
-function ChatBase(props)
+function ChatBase()
     return Roact.createElement("Frame", {
-        BackgroundTransparency = 0.8;
+        Name = "ChatBase";
+        BackgroundTransparency = 0.5;
         BackgroundColor3 = Color3.new(0,0,0);
         BorderSizePixel = 0;
         Size = UDim2.fromOffset(420, 280)
