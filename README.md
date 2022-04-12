@@ -1,5 +1,5 @@
 # No Roblox, You Can't Look!
-*nrycl (also sometimes known as nrycls) is pronounced NER-RYE-kul(s) ;)*
+*nrycl (also sometimes known as nrycls) is pronounced NRYE-kul(s) ;)*
 
 nrycl-chat is an encrypted chat system that works around filter restrictions and protects the end-user from TOS strikes.
 
