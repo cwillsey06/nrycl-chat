@@ -3,29 +3,25 @@
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
-      "common": {
-        "$path": "src/common",
-        "$ignoreUnknownInstances": true,
+      "TestPackages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerScriptService": {
+      "nryclsService": {
+        "$path": "src/nryclsService",
         "Packages": {
           "$path": "Packages"
         }
       }
     },
-    "ServerStorage": {
-      "private": {
-        "$className": "Folder",
-        "$ignoreUnknownInstances": true
-      }
-    },
-    "ServerScriptService": {
-      "server": {
-        "$path": "src/server"
-      }
-    },
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "client": {
-          "$path": "src/client"
+        "nryclsController": {
+          "$path": "src/nryclsController",
+          "Packages": {
+            "$path": "Packages"
+          }
         }
       }
     }
