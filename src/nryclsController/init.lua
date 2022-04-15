@@ -3,7 +3,6 @@
 -- 2022-04-11 [01:42]
 
 local Packages = script.Packages
-local RoactRodux = require(Packages.roactrodux)
 local Promise = require(Packages.promise)
 local Roact = require(Packages.roact)
 local Rodux = require(Packages.rodux)

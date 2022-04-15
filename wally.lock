@@ -5,7 +5,7 @@ registry = "test"
 [[package]]
 name = "cwillsey/nrycl-chat"
 version = "0.1.0"
-dependencies = [["caretaker", "cwillsey06/caretaker@1.0.1"], ["pooler", "lewistehminerz/pooler@1.0.0"], ["promise", "evaera/promise@4.0.0"], ["roact", "roblox/roact@1.4.2"], ["rodux", "roblox/rodux@3.0.0"], ["snapdragon", "vorlias/snapdragon@2.0.0"]]
+dependencies = [["caretaker", "cwillsey06/caretaker@1.0.1"], ["enumlist", "sleitnick/enum-list@2.0.0"], ["pooler", "lewistehminerz/pooler@1.0.0"], ["promise", "evaera/promise@4.0.0"], ["roact", "roblox/roact@1.4.2"], ["rodux", "roblox/rodux@3.0.0"], ["snapdragon", "vorlias/snapdragon@2.0.0"]]
 
 [[package]]
 name = "cwillsey06/caretaker"
@@ -30,6 +30,11 @@ dependencies = []
 [[package]]
 name = "roblox/rodux"
 version = "3.0.0"
+dependencies = []
+
+[[package]]
+name = "sleitnick/enum-list"
+version = "2.0.0"
 dependencies = []
 
 [[package]]
